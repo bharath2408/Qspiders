@@ -5,4 +5,4 @@
 
 ## Database :
 
- - Database is a place (or) medium, where we can store data in systamatic and organised manner.  We can perform four operations on the database, they are <span style="color:red">**Create/Insert, Read/Retrive, Update/Modify, Delete/Drop**</span>. These operations are universally referred as **'CRUD'** operations.
+ - Database is a place (or) medium, where we can store data in systamatic and organised manner.  We can perform four operations on the database, they are **Create/Insert, Read/Retrive, Update/Modify, Delete/Drop**. These operations are universally referred as **'CRUD'** operations.
