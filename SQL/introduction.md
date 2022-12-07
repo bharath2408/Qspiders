@@ -13,4 +13,4 @@
 * DBMS provides two important features they are security & authorisation.
 * Query language is used to interact (or) communicate with DBMS.
 
-![dbms example](dbms.png)
+![dbms example](/assets/dbms.jpg)
