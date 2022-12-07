@@ -35,21 +35,25 @@
 
 ## Rules of E.F. Codd :
 
-- **Rule 1** 
-Data enter into the cell must be single value **(Atomic rule)** [to avoid data lose, we use / enter single value in the cell].
+**Rule 1**
+
+- Data enter into the cell must be single value **(Atomic rule)** [to avoid data lose, we use / enter single value in the cell].
   - Table is a logical arrangement of rows and columns.
 
-- **Rule 2** 
-we can store data in multiple tables if required we can establish a connection (or) relation between the tables with the help **Key Attributes**
+**Rule 2** 
 
-- **Rule 3** 
-In RDBMS all the data should be stored in the form of tables including **Meta Data**
+- we can store data in multiple tables if required we can establish a connection (or) relation between the tables with the help **Key Attributes**
+
+**Rule 3** 
+
+- In RDBMS all the data should be stored in the form of tables including **Meta Data**
   - **Meta Data** Details of the data is known as meta data (or) the meta data is a raw fact which describes the attributes of data.
   - **Meta Data** is stored in a table called **Meta Table**.
   - **Meta tables** are auto-generated.
 
-- **Rules 4** 
-Data enter into the table must be validated (cross checking).
+**Rules 4** 
+
+- Data enter into the table must be validated (cross checking).
 **Two methods for data validation**
 - By assigning Data types 
 - By assigning Constraints.
