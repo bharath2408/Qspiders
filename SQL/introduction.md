@@ -28,6 +28,9 @@
 * If any DBMS follows relational model it becomes RDBMS.
 * If any DBMS follows the rules of E.F. CODD, it becomes RDBMS
 
+![effcodd](assets/efcodd.png)
+
+![rdbms](assets/rdbms.png)
 
 * RDBMS is a types of DBMS software. It is used to maintain and manage the database.
 * RDBMS provides two important features security and authorisation.
