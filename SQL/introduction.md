@@ -14,7 +14,6 @@
 * Query language is used to interact (or) communicate with DBMS.
 
 ![dbms.png](assets/dbms.png)
-
 ### Types of DBMS :
 
 * Network DBMS
@@ -24,7 +23,7 @@
 
 ## Relational model :
 
-* In the year 1970'<sup>s</sup> a data scientist called **E.F. CODD** (Edgar franklin codd) suggested that data can be stored in the form of tables and invented a model called relational mpdel.
+* In the year 1970'<sup>s</sup> a data scientist called **E.F. CODD** (Edgar franklin codd) suggested that data can be stored in the form of tables and invented a model called relational model.
 * If any DBMS follows relational model it becomes RDBMS.
 * If any DBMS follows the rules of E.F. CODD, it becomes RDBMS
 
@@ -64,3 +63,65 @@
 
 > **Note**
 > SQL is case insensitive language
+
+# DataTypes
+
+- Data types are used to specify what type of data can be stored in particular memory location.
+  * CHAR()
+  * VARCHAR()/VARCHAR2()
+  * NUMBER()
+  * DATE
+  * LARGE OBJECT
+    1. character large object (CLOB)
+    2. Binary large object (BLOB)
+
+## 1. CHAR() :
+
+* CHAR() datatype can accept **'A_Z', 'a-z', special char, '0-9', alpha-numeric**.
+* Char() datatype follows **fixed length memory allocation system**.
+* In char() datatypes unused memory will become memory wastage.
+* In char() datatype, we can store upto 2000 character.
+
+### SYNTAX :
+
+> ## ` CHAR(SIZE)`
+
+### SIZE :
+
+* Size is used to specify the total number of blocks required to store the memory.
+
+
+## 2. VARCHAR() :
+
+* VARCHAR() Datatype can accept **'A_Z', 'a-z', special char, '0-9', alpha-numeric**.
+* VARCHAR() follows **Variable length memory allocation system**.
+* In the VARCHAR() unused memory is a free memory.
+* In VARCHAR() we can store upto 2000 characters.
+
+### SYNTAX :
+
+> ## ` VARCHAR(SIZE)`
+
+## 2.1 VARCHAR2() :
+
+* VARCHAR2() is the updated version of varchar(), in which we can store upto 4000 characters. 
+
+## 3. Number() :
+
+* This datatype is used to store the numerical values.
+
+* For number datatypes we can pass two arguments **(INPUTS)** precession, scale.
+
+### precession :
+
+* precession is used to specify the total number of integers that can be stored in a memory.
+* precession ranges from **1 to 38**, it does not have any default value.
+
+### scale :
+
+* Scale is used to specify the total number of decimal (or) floating values, that can be stored within the **Precession**.
+* Scale ranges form **-84 to 127**, its default value is **0 (ZERO)**.
+
+### SYNTAX
+
+> ## `NUMBER(PRECESSION, [SCALE])`
