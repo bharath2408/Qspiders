@@ -1,4 +1,6 @@
-# Introduction to SQL
+# SQL (Structured Query Language)
+
+## what is data :
 
 - **DATA :** It is a collection of information (or) a valid information.
 - **ENTITY :** It suits for both living & non living things
@@ -37,23 +39,23 @@
 
 ## Rules of E.F. Codd :
 
-**Rule 1**
+**Rule 1 :**
 
 - Data enter into the cell must be single value **(Atomic rule)** [to avoid data lose, we use / enter single value in the cell].
   - Table is a logical arrangement of rows and columns.
 
-**Rule 2** 
+**Rule 2 :** 
 
 - we can store data in multiple tables if required we can establish a connection (or) relation between the tables with the help **Key Attributes**
 
-**Rule 3** 
+**Rule 3 :** 
 
 - In RDBMS all the data should be stored in the form of tables including **Meta Data**
   - **Meta Data** Details of the data is known as meta data (or) the meta data is a raw fact which describes the attributes of data.
   - **Meta Data** is stored in a table called **Meta Table**.
   - **Meta tables** are auto-generated.
 
-**Rules 4** 
+**Rules 4 :** 
 
 - Data enter into the table must be validated (cross checking).
 **Two methods for data validation**
@@ -84,7 +86,7 @@
 
 ### SYNTAX :
 
-> ## ` CHAR(SIZE)`
+>  ` CHAR(SIZE)`
 
 ### SIZE :
 
@@ -100,7 +102,7 @@
 
 ### SYNTAX :
 
-> ## ` VARCHAR(SIZE)`
+> ` VARCHAR(SIZE)`
 
 ## 2.1 VARCHAR2() :
 
@@ -122,6 +124,68 @@
 * Scale is used to specify the total number of decimal (or) floating values, that can be stored within the **Precession**.
 * Scale ranges form **-84 to 127**, its default value is **0 (ZERO)**.
 
-### SYNTAX
+### SYNTAX :
 
-> ## `NUMBER(PRECESSION, [SCALE])`
+>  `NUMBER(PRECESSION, [SCALE])`
+
+> **Note :**
+> If the number (or) value is within the range but having more number of scale values, by default NUMBER() Datatype will roundoff the number & accept it.
+
+## 4. DATE() :
+
+* This Datatype is used to storw the date with syntax.
+
+### SYNTAX :
+
+> `DATE`
+
+* There are two format given by ORACLE, they are **DD-MON-YY (or) DD-MON-YYYY**.
+
+### Example :
+> 08-DEC-22 (or) 08-DEC-2022 DATE FORMAT.
+
+## 5. LARGE OBJECT :
+
+  1. **Character large object (clob) :** Clob is used to store the huge amount of characters upto **4 GB**.
+  2. **Binary large object (Blob) :** This datatype is used to store the binary values of **images, files, MP3, MP4 upto 4 GB**. 
+
+
+## Constraints :
+
+* Contraints are the rules given for data validation.
+  * There are five constraints :
+    * UNIQUE
+    * NOT NULL
+    * CHECK()
+    * PRIMARY KEY
+    * FOREIGN KEY
+
+### UNIQUE :
+
+* Unique is a constraints which is used to specify that the column should not accept duplicate or repeated values.
+
+### NOT NULL :
+
+* NOT NULL is a constraints which is used to specify that column should not accept null or empty or which is used to specify the mandatory fields.
+
+  - **NULL**
+    * NULL does not means zero.
+    * NULL means empty (or) nothing.
+    * Any arithmetic operations on the null will always results in **"NULL"**.
+    * NULL cannot be equated with anything.
+
+### CHECK() :
+
+* CHECK() constraints is used for additional valiation of data.
+* To CHECK() constraints we should pass the condition as the argument, If the condition satisfied it will accept the value else reject.
+
+### PRIMARY KEY :
+
+* primary key is a constraints which is used to identify uniquify from the table.
+
+**Characteristics of primary key**
+
+* We can have only one primary key the table.
+* Primary will not accept duplicate (or) repeated value.
+* Primary key is a combination of unique and not null constraints.
+* Primary key is not mandatory but highly recommanded.
