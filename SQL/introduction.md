@@ -9,6 +9,8 @@
 
  - Database is a place (or) medium, where we can store data in systamatic and organised manner.  We can perform four operations on the database, they are **Create/Insert, Read/Retrive, Update/Modify, Delete/Drop**. These operations are universally referred as **'CRUD'** operations.
 
+ ![database](assets/database.png)
+
 ## Database Management System : [DBMS]
 
 * DBMS is a software which is used to maintain and manage the database. In DBMS data is stored in the form of files.
@@ -42,6 +44,7 @@
 **Rule 1 :**
 
 - Data enter into the cell must be single value **(Atomic rule)** [to avoid data lose, we use / enter single value in the cell].
+![attendence](assets/attendence.png)
   - Table is a logical arrangement of rows and columns.
 
 **Rule 2 :** 
