@@ -128,7 +128,7 @@
 
 >  `NUMBER(PRECESSION, [SCALE])`
 
-> **Note :**
+> **Note**
 > If the number (or) value is within the range but having more number of scale values, by default NUMBER() Datatype will roundoff the number & accept it.
 
 ## 4. DATE() :
