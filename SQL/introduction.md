@@ -139,6 +139,8 @@
 
 ### EXAMPLE
 ```
+[p] -> PRECESSION [s] -> SCALE
+
 Number (5[p]) -> + 99999 to - 99999            -> p > s   
 Number (5[p], 0[s]) -> + 99999 to - 99999      -> p > s
 Number (5[p], 2[s]) -> + 999.99 to - 999.99    -> p > s
