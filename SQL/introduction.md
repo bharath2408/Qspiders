@@ -9,7 +9,7 @@
 
  - Database is a place (or) medium, where we can store data in systamatic and organised manner.  We can perform four operations on the database, they are **Create/Insert, Read/Retrive, Update/Modify, Delete/Drop**. These operations are universally referred as **'CRUD'** operations.
 
- [1.2 DATABASE](https://drive.google.com/file/d/1wAls8ng17gdrngC8LTIkI6r5tW4qeeOq/view?usp=share_link)
+ > [1.2 DATABASE](https://drive.google.com/file/d/1wAls8ng17gdrngC8LTIkI6r5tW4qeeOq/view?usp=share_link)
 
 ## 1.3 Database Management System : [DBMS]
 
@@ -17,7 +17,7 @@
 * DBMS provides two important features they are security & authorisation.
 * Query language is used to interact (or) communicate with DBMS.
 
-[1.3 DBMS](https://drive.google.com/file/d/1XaW-RLhMLcUWa8goBnRbiwjLj_Gx6JQw/view?usp=share_link)
+> [1.3 DBMS](https://drive.google.com/file/d/1XaW-RLhMLcUWa8goBnRbiwjLj_Gx6JQw/view?usp=share_link)
 ## 1.4 Types of DBMS :
 
 * Network DBMS
@@ -33,7 +33,7 @@
 
 [1.4.1 E.F.CODD](https://drive.google.com/file/d/1wgTpiLqGyYQC7RqNQqMM0EjcRk5jdHwZ/view?usp=share_link)
 
-[1.4.1 RDBMS](https://drive.google.com/file/d/1dDaQC45XTRzRXgM6sMPEEPIs3BKbSyjQ/view?usp=share_link)
+> [1.4.1 RDBMS](https://drive.google.com/file/d/1dDaQC45XTRzRXgM6sMPEEPIs3BKbSyjQ/view?usp=share_link)
 
 * RDBMS is a types of DBMS software. It is used to maintain and manage the database.
 * RDBMS provides two important features security and authorisation.
@@ -45,7 +45,7 @@
 
 - Data enter into the cell must be single value **(Atomic rule)** [to avoid data lose, we use / enter single value in the cell].
 
-[1.4.2 ADTTENDENCE](https://drive.google.com/file/d/1_rfUKt7Wsea_FxEw-E_PHwxn3rKWCveg/view?usp=share_link)
+> [1.4.2 ADTTENDENCE](https://drive.google.com/file/d/1_rfUKt7Wsea_FxEw-E_PHwxn3rKWCveg/view?usp=share_link)
 
   - Table is a logical arrangement of rows and columns.
 
