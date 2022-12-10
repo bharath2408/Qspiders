@@ -137,6 +137,16 @@
 
 >  `NUMBER(PRECESSION, [SCALE])`
 
+### EXAMPLE
+```
+Number (5[p]) -> + 99999 to - 99999            -> p > s   
+Number (5[p], 0[s]) -> + 99999 to - 99999      -> p > s
+Number (5[p], 2[s]) -> + 999.99 to - 999.99    -> p > s
+Number (5[p], 5[s]) -> + .99999 to - .99999    -> p = s
+Number (2[p], 5[s]) -> + .00099 to - .00099    -> p < s
+Number (1[p], 7[s]) -> + .0000009 to - .0000009 -> p < s
+```
+
 > **Note**
 > If the number (or) value is within the range but having more number of scale values, by default NUMBER() Datatype will roundoff the number & accept it.
 
