@@ -17,7 +17,7 @@
 * DBMS provides two important features they are security & authorisation.
 * Query language is used to interact (or) communicate with DBMS.
 
-![1.3 DBMS](https://drive.google.com/file/d/1XaW-RLhMLcUWa8goBnRbiwjLj_Gx6JQw/view?usp=share_link)
+[1.3 DBMS](https://drive.google.com/file/d/1XaW-RLhMLcUWa8goBnRbiwjLj_Gx6JQw/view?usp=share_link)
 ### Types of DBMS :
 
 * Network DBMS
