@@ -192,3 +192,17 @@
 * Primary will not accept duplicate (or) repeated value.
 * Primary key is a combination of unique and not null constraints.
 * Primary key is not mandatory but highly recommanded.
+
+### FOREIGN KEY :
+
+* Foreign key is a constraints which is use to establish the connection b/w the tables.
+
+**Characteristics of primay key**
+
+* We can have any number of foregin key in table.
+* Foreign key will accept duplicate and repeated values.
+* Foreign will accept NULL value.
+* Foreign key is not a combination of **UNIQUE and NOT NULL** constraints.
+* Foreign key is present in the child table but they actually belongs to parent table.
+* If any attributes wants to be a Foreign key its mandatory that it should be primary key in its own table.
+* Foreign key is also known a **"REFERENTIAL INTIGRITY CONSTRAINTS"**.
