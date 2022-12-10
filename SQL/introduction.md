@@ -1,23 +1,23 @@
-# SQL (Structured Query Language)
+# 1 SQL (Structured Query Language)
 
-## what is data :
+## 1.1 what is data :
 
 - **DATA :** It is a collection of information (or) a valid information.
 - **ENTITY :** It suits for both living & non living things
 
-## Database :
+## 1.2 Database :
 
  - Database is a place (or) medium, where we can store data in systamatic and organised manner.  We can perform four operations on the database, they are **Create/Insert, Read/Retrive, Update/Modify, Delete/Drop**. These operations are universally referred as **'CRUD'** operations.
 
  ![database](assets/database.png)
 
-## Database Management System : [DBMS]
+## 1.3 Database Management System : [DBMS]
 
 * DBMS is a software which is used to maintain and manage the database. In DBMS data is stored in the form of files.
 * DBMS provides two important features they are security & authorisation.
 * Query language is used to interact (or) communicate with DBMS.
 
-![dbms.png](assets/dbms.png)
+![1.3 DBMS](https://drive.google.com/file/d/1XaW-RLhMLcUWa8goBnRbiwjLj_Gx6JQw/view?usp=share_link)
 ### Types of DBMS :
 
 * Network DBMS
