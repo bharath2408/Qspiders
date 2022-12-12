@@ -45,6 +45,8 @@ EXAMPLE :
 
 ``` ANSWER: SELECT SNAME FROM STUDENT; ```
 
+[STUDENT TABLE](https://drive.google.com/file/d/1liH_jM04bJVSxJFPba3gKYTC-rf7MM9a/view?usp=share_link)
+
 - From clause start the execution, it will go to database and search for the table, if the table is present it will put the table under execution.
 - To FROM CLAUSE we can pas table name as an argument(input).
 - SELECT CLAUSE execute after the execution of from clause.
@@ -60,3 +62,23 @@ EXAMPLE :
 > **Note**
 > To see the table
 > **SELECT * FROM TAB;** to see the column name **DESC TABLE_NAME;** 
+
+**Write a query to display name and for all the students :**
+
+``` ANSWER : SELECT SNAME,BRANCH FROM STUDENT; ```
+
+**Write a query to display Student id, student name, percentage :**
+
+``` ANSWER : SELECT SID,SNAME,PER FROM STUDENT; ```
+
+**write a query to display student name, student id, branch :**
+
+``` ANSWER : SELECT SNAME,SID,BRANCH FROM STUDENT;```
+
+**write a query to display student id, branch, percentage, name for all the student :**
+
+``` ANSWER : SELECT SID,BRANCH,PER,SNAME FROM STUDENT; ```
+
+**Write a query to display all the details of students :**
+
+``` ANSWER : SELECT * FROM STUDENT;```
