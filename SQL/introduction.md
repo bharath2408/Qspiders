@@ -154,7 +154,7 @@ Number (1[p], 7[s]) -> + .0000009 to - .0000009 -> p < s
 
 ## 4. DATE() :
 
-* This Datatype is used to storw the date with syntax.
+* This Datatype is used to store the date with syntax.
 
 ### SYNTAX :
 
