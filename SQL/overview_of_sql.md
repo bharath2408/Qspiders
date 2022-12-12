@@ -29,7 +29,7 @@
 
 ### SYNTAX :
 
-``` SELECT * /[DISTINT]col-name/EXPRESSION[ALIAS] FROM Table-name ```
+``` SELECT * /[DISTINT]col-name/EXPRESSION[ALIAS] FROM Table-name; ```
 
 ### Order of execution:
 
