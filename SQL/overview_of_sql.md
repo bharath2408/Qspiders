@@ -131,3 +131,101 @@ EXAMPLE :
 ``` ANSWER : SELECT DNAME,LOC FROM DEPT; ```
 
 [DEPARTMENT EXAMPLE 1](https://drive.google.com/file/d/1DvKA6673UplGk0kLD0D4HKffxC4uML09/view?usp=share_link)
+
+
+### EXPRESSION :
+
+- Any statement which gives the result is known as expression (or) expression is a combination of operation and operands.
+
+```
+    SAL * 12
+
+    SAL , 12 -> operands
+    * -> operator
+```
+
+**Two types of expression (Formats) :**
+- col-name operator colname
+- col-name operator values
+
+**Write a 
+
+### ASSIGNMENT ON EXPRESSION & ALIAS :
+
+**WAQTD NAME OF THE EMPLOYEE ALONG WITH THEIR ANNUAL SALARY**
+
+``` ANSWER : SELECT ENAME,SAL*12 "ANNUAL SALARY" FROM EMP; ```
+
+[ASSIGNMENT 1](https://drive.google.com/file/d/1RooryZ9fRVm69sLoAr4vhzXNPxJkkmVX/view?usp=share_link)
+
+**WAQTD ENAME AND JOB FOR ALL THE EMPLOYEE WITH THEIR HALF TERM SALARY**
+
+``` ANSWER : SELECT ENAME,JOB,SAL*6 FROM EMP;```
+
+[ASSIGNMENT 2](https://drive.google.com/file/d/1mserUx_xAJ2fehFY_45RHhAgDxxR5HJ9/view?usp=share_link)
+
+**WAQTD ALL THE DETAILS OF THE EMPLOYESS ALONG WITH AN ANNUAL BONUS OF 2000**
+
+``` ANSWER ; SELECT EMP.*,SAL*12+2000 FROM EMP;```
+
+[ASSIGNMENT 3](https://drive.google.com/file/d/1lktmWYhI-v7alp7i8TgyYv0X3G1HTMvD/view?usp=share_link)
+
+**WAQTD NAME SALARY AND SALARY WITH A HIKE OF 10%**
+
+``` ANSWER : SELECT ENAME,SAL,SAL+SAL*10/100 FROM EMP; ```
+
+[ASSIGNMENT 4](https://drive.google.com/file/d/1U99OaSmtGr-K8Ug13MpBYWcqhE5y7EvI/view?usp=share_link)
+
+**WAQTD NAME AND SALARY WITH DEDUCTION OF 25%**
+
+``` ANSWER : SELECT ENAME,SAL-SAL*25/100 FROM EMP;```
+
+[ASSIGNMENT 5](https://drive.google.com/file/d/1TDzjOgGNqOXdfPMdFTiluSRmF4ZpuvOA/view?usp=share_link)
+
+**WAQTD NAME AND SALARY WITH MONTHLY HIKE OF 50**
+
+``` ANSWER : SELECT ENAME,SAL+50 FROM EMP; ```
+
+[ASSIGNMENT 6](https://drive.google.com/file/d/1Nz_CKBtNZovbSETsph3Rk5MzATbirVqS/view?usp=share_link)
+
+**WAQTD NAME AND ANNUAL SALARY WITH DEDUCTION OF 10%**
+
+``` ANSWER : SELECT ENAME,SAL-SAL*10/100 FROM EMP;```
+
+[ASSIGNMENT 7](https://drive.google.com/file/d/1QHQaoEp1WqGPrxlKojp6fQJ0XM3esCWA/view?usp=share_link)
+
+**WAQTD TOTAL SALARY GIVEN TO EACH EMPLOYEE (SAL+COMM)**
+
+``` ANSWER : SELECT SAL+COMM FROM EMP;```
+
+[ASSIGNMENT 8](https://drive.google.com/file/d/1dwZrCabY4MOTV1ekrP1zm7uXvXAk59Ea/view?usp=share_link)
+
+**WAQTD DETAILS OF ALL THE EMPLOYEES ALONG WITH ANNUAL SALARY**
+
+``` ANSWER : SELECT EMP.*,SAL*12 FROM EMP;```
+
+[ASSIGNMENT 9](https://drive.google.com/file/d/1bwwBLUZv4x5oC9v03iWb4e-SQiHQWlnD/view?usp=share_link)
+
+**WAQTD NAME AND DESIGNATION ALONG 100 PENALTY IN SALARY**
+
+``` ANSWER : SELECT ENAME,JOB,SAL-100 FROM EMP;```
+
+[ASSIGNMENT 10](https://drive.google.com/file/d/14yDJMYOsLMNtCR579EGudaubGYQehQb4/view?usp=share_link)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
