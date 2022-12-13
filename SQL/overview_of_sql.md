@@ -148,7 +148,9 @@ EXAMPLE :
 - col-name operator colname
 - col-name operator values
 
-**Write a 
+**Write a ename and annual salary for all the employees**
+
+``` ANSWER : SELECT ENAME,SAL*12 FROM EMP;```
 
 ### ASSIGNMENT ON EXPRESSION & ALIAS :
 
