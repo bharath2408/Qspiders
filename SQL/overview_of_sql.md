@@ -103,7 +103,7 @@ EXAMPLE :
 
 [EMPLOYEE EXAMPLE 3](https://drive.google.com/file/d/1TVXaFV6qyLJxJgFIERahXgtDntgUvL0O/view?usp=share_link)
 
-> **NOTE**
+> **Note**
 >[SET LINES 100 PAGES 100] -> Command for page layout.
 
 **Write a query to display name, designation and dept no for all the employees :**
