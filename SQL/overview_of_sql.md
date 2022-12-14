@@ -163,7 +163,7 @@ SELECT EMP.*,SAL*6 FROM EMP;  -> CORRECT
 ```
 
 **Note**
-whenever you want to display all the details from the table along with some additional details, we can't use any argument with '*' so we use table name .*
+whenever you want to display all the details from the table along with some additional details, we can't use any argument with ' * ' so we use table name . *
 
 **WRITE A QUERY TO DISPLAY EMPNAME, SALARY AND ANNUAL SALARY FOR ALL THE EMPLOYEES**
 
