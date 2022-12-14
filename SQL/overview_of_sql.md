@@ -152,6 +152,29 @@ EXAMPLE :
 
 ``` ANSWER : SELECT ENAME,SAL*12 FROM EMP;```
 
+```
+TABLENAME.*
+.(DOT) -> ACCESS OPERATOR
+
+SELECT *,SAL*6 FROM EMP;  -> WRONG
+
+SELECT EMP.*,SAL*6 FROM EMP;  -> CORRECT
+
+```
+
+>**Note**
+whenever you want to display all the details from the table along with some additional details, we can't use any argument with '*' so we use table name .*
+
+**WRITE A QUERY TO DISPLAY EMPNAME, SALARY AND ANNUAL SALARY FOR ALL THE EMPLOYEES**
+
+``` SELECT ENAME,SAL,SAL*12 FROM EMP; ```
+
+**WRITE A QUERY TO DISPALY EMPNAME,SALARY AND SAL WITH 10% HIKE FOR ALL THE EMPLOYEES**
+
+``` SELECT ENAME,SAL,SAL+SAL*10/100 FROM EMP; ```
+
+
+
 ### ASSIGNMENT ON EXPRESSION & ALIAS :
 
 **WAQTD NAME OF THE EMPLOYEE ALONG WITH THEIR ANNUAL SALARY**
@@ -213,6 +236,55 @@ EXAMPLE :
 ``` ANSWER : SELECT ENAME,JOB,SAL-100 FROM EMP;```
 
 [ASSIGNMENT 10](https://drive.google.com/file/d/14yDJMYOsLMNtCR579EGudaubGYQehQb4/view?usp=share_link)
+
+### ALIAS :
+
+- Alias is the alternative name given for experssion (or) col-name in the result table.
+- Alias name can be written with (or) without using a keyword **"AS"**.
+- Alias name should be always a single string or it should be seperated with underscore.
+- if multiple string has to be given as the alias name, then it should be written within double quotation.
+
+**Example :**
+
+- Write a query to display annual salary for all the employees
+    
+``` 
+SELECT SAL*12 AS ANNUAL_SALARY FROM EMP; 
+
+SELECT SAL*12 "ANNUAL SALARY FROM EMP;
+```
+
+### DISTINCT CLAUSE :
+
+- Distinct clause is used to remove the duplicate values or repeated values from the result table.
+- But distint clause should be always the first argument in the select clause.
+- We can pass multiple arguments to the distinct clause, it will remove the value (or) record if the combination of the columns are repeated.
+
+
+**Example 1 :**
+
+```
+SELECT DISTINT BRANCH FROM STUDENT;
+```
+
+**Example 2 : (WITH TWO ARGUMENT)**
+
+```
+SELECT DISTINCT BRANCH,PER FROM STUDENT;
+```
+
+**WRITE A QUERY TO DISPLAY DISTINCT SALARIES PRESENT IN EMPLOYEE TABLE**
+
+```
+SELECT DISTINCT SAL FROM EMP;
+```
+**WRITE A QUERY TO DISPLAY DESIGNATION PRESENT IN EMPLOYEE TABLE**
+
+```
+SELECT JOB FROM EMP;
+
+SELECT DISTINCT JOB FROM EMP;
+```
 
 
 
