@@ -60,6 +60,8 @@
   - **Meta Data** is stored in a table called **Meta Table**.
   - **Meta tables** are auto-generated.
 
+[META TABLE](https://drive.google.com/file/d/1LOP75L5h0ZNgGXAgELzCgh2DEsTwNz5h/view?usp=share_link)
+
 **Rules 4 :** 
 
 - Data enter into the table must be validated (cross checking).
@@ -211,6 +213,8 @@ Number (1[p], 7[s]) -> + .0000009 to - .0000009 -> p < s
 * Primary key is a combination of **UNIQUE and NOT NULL** constraints.
 * Primary key is not mandatory but highly recommanded.
 
+[PRIMARY KEY](https://drive.google.com/file/d/1X7nLAbsxG9dWWZNWY5H5LQyF53sYjgF4/view?usp=share_link)
+
 ### FOREIGN KEY :
 
 * Foreign key is a constraints which is use to establish the connection b/w the tables.
@@ -224,3 +228,5 @@ Number (1[p], 7[s]) -> + .0000009 to - .0000009 -> p < s
 * Foreign key is present in the child table but they actually belongs to parent table.
 * If any attributes wants to be a Foreign key its mandatory that it should be primary key in its own table.
 * Foreign key is also known a **"REFERENTIAL INTIGRITY CONSTRAINTS"**.
+
+[FOREIGN KEY](https://drive.google.com/file/d/10jtk1F5Dlm6K2MfPAEKkHxeg8KCSsFaM/view?usp=share_link)
