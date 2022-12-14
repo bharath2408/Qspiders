@@ -267,6 +267,8 @@ SELECT SAL*12 "ANNUAL SALARY FROM EMP;
 SELECT DISTINT BRANCH FROM STUDENT;
 ```
 
+[DISTINT EXAMPLE 1](https://drive.google.com/file/d/1J6tR2ZOLS3J4yTw-w5H6I80kXsDC8cL7/view?usp=share_link)
+
 **Example 2 : (WITH TWO ARGUMENT)**
 
 ```
