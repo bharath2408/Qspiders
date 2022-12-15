@@ -49,6 +49,8 @@ FROM EMP
 WHERE DNO=20;
 ```
 
+[EXAMPLE WHERE CLAUSE](https://drive.google.com/file/d/1UMrGVda_2jCps8HA6sZSUbw9t7yssp7q/view?usp=share_link)
+
 
 **WRITE A QUERY TO DISPLAY SALARY OF SMITH**
 
