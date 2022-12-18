@@ -34,10 +34,16 @@
  FROM DUAL;
 ```
 
+[EXAMPLE 1](https://drive.google.com/file/d/19ObT45ymYrcbyRMTuA8DT1Ezaiqbz2Mg/view?usp=share_link)
+
+>**Note**
+>Dual is a dummy table, it has one row and one column.
+
 ```
- SELECT 'HI '||ENAME ' YOUR SAL IS RS '||SAL
+ SELECT 'HI '||ENAME||'YOUR SAL IS RS '||SAL
  FROM EMP;
 ```
+[EXAMPLE 2](https://drive.google.com/file/d/13lEPCuKKAbMZnum6aSJZKVnqkRlYpDSo/view?usp=share_link)
 
 ## LOGICAL OPERATOR :
 
