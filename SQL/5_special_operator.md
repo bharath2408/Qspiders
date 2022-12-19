@@ -1,0 +1,52 @@
+# SPECIAL OPERATOR
+
+## IN-OPERATOR : (MULTI - VALUED OPERATOR)
+
+- 'IN' is a special operator which can compare multiple values of RHS to the single value of LHS.
+- 'IN' operator returns true if any one of the condition at RHS is satisfied.
+
+### SYNTAX :
+
+```
+ col-name/Expression IN (v1,v2,v3,........Vn)
+```
+### EXAMPLE :
+
+1. WAQTD NAME OF EMPLOYEES WORKING IN DEPT 10,20,30,40.
+
+```
+ SELECT ENAME FROM EMP
+ WHERE DEPTNO IN (10,20,30,40);
+```
+
+2. WAQTD DETAILS OF THE EMPLOYEES WORKING IN DEPT 10 OR 20 OR 30.
+
+```
+ SELECT * FROM EMP
+ WHERE DEPTNO IN (10,20,30);
+```
+
+3. WAQTD NAME OF THE EMPLOYEE WHO IS WORKING AS MANAGER IN DEPT 10,20.
+
+```
+ SELECT ENAME FROM EMP
+ WHERE JOB='MANAGER' AND DEPTNO IN (10,20);
+```
+
+4. WAQTD DETAILS OF THE EMPLOYEE WORKING AS SALESMAN OR ANALYST OR MANAGER IN DEPT 30.
+
+```
+ SELECT * FROM EMP
+ WHERE JOB IN ('SALESMAN','ANALYST','MANAGER') AND DEPTNO IN 30;
+```
+
+5. WAQTD DETAILS OF THE EMPLOYEE WORKING AS CLERK OR MANAGER IN DEPT 10,20 WHOSE EARNING MORE THAN 1000.
+
+```
+ SELECT * FROM EMP
+ WHERE JOB IN ('CLERK','MANAGER') AND DEPTNO IN (10,20) AND SAL>1000;
+```
+
+## NOT IN OPERATOR :
+
+- 'NOT IN' operator works similar to 'IN OPERATOR' which can compare multiple values at RHS to the single value of LHS.

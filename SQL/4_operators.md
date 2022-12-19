@@ -191,7 +191,7 @@
 
 ```
  SELECT ENAME,DEPTNO FROM EMP
- WHERE JOB='CLERK' AND DEPTNO=10 OR DEPTNO=20;
+ WHERE JOB='CLERK' AND (DEPTNO=10 OR DEPTNO=20);
 ```
 [ASSIGNMENT 11](https://drive.google.com/file/d/1smZn8V076fJy4jxjcOKmUAsiTEmTvzFF/view?usp=share_link)
 
@@ -199,7 +199,7 @@
 
 ```
  SELECT * FROM EMP
- WHERE JOB='CLERK' OR JOB='MANAGER' AND DEPTNO=10;
+ WHERE (JOB='CLERK' OR JOB='MANAGER') AND DEPTNO=10;
 ```
 [ASSIGNMENT 12](https://drive.google.com/file/d/1OmemsFyIQCCL4QHv4cBB8bE8xtq-WI-E/view?usp=share_link)
 
@@ -207,7 +207,7 @@
 
 ```
  SELECT ENAME FROM EMP
- WHERE DEPTNO='10' AND DEPTNO='20' AND DEPTNO='30' AND DEPTNO='40';
+ WHERE DEPTNO='10' OR DEPTNO='20' OR DEPTNO='30' OR DEPTNO='40';
 ```
 [ASSIGNMENT 13](https://drive.google.com/file/d/1EZ8CT4bW3pYTFer2dHB3yo_6pgdMcCPC/view?usp=share_link)
 
@@ -215,7 +215,7 @@
 
 ```
  SELECT * FROM EMP
- WHERE EMPNO=7902 AND EMPNO=7839;
+ WHERE EMPNO=7902 OR EMPNO=7839;
 ```
 [ASSIGNMENT 14](https://drive.google.com/file/d/1DZtC0ABKlruhuMcM4-aOtMzm8c4_0xa0/view?usp=share_link)
 
@@ -231,7 +231,7 @@
 
 ```
  SELECT ENAME FROM EMP
- WHERE HIREDATE>'01-JAN-81' AND HIREDATE<'01-JAN-87';
+ WHERE HIREDATE>'31-DEC-81' AND HIREDATE<'01-JAN-87';
 ```
 [ASSIGNMENT 16](https://drive.google.com/file/d/1JCHssuzcYQMpleLnGOQFXcBONJpjlxgz/view?usp=share_link)
 
@@ -247,7 +247,7 @@
 
 ```
  SELECT ENAME FROM EMP
- WHERE HIREDATE>'01-JAN-81' AND DEPTNO=10 OR DEPTNO=30;
+ WHERE HIREDATE>'31-DEC-81' AND (DEPTNO=10 OR DEPTNO=30);
 ```
 [ASSIGNMENT 18](https://drive.google.com/file/d/1_ckpnFJ9i6iSttiPKt0s34q7b00Gb67k/view?usp=share_link)
 
@@ -255,7 +255,7 @@
 
 ```
  SELECT ENAME,SAL*12 FROM EMP
- WHERE JOB='MANAGER' OR JOB='CLERK' AND DEPTNO=10 OR DEPTNO=30;
+ WHERE (JOB='MANAGER' OR JOB='CLERK') AND (DEPTNO=10 OR DEPTNO=30);
 ```
 [ASSIGNMENT 19](https://drive.google.com/file/d/1YIUGrMeIkcySHJJ9xx4ZnFWMDQ6VQ5Th/view?usp=share_link)
 
@@ -263,7 +263,7 @@
 
 ```
  SELECT EMP.*,SAL*12 FROM EMP
- WHERE SAL>=1000 AND SAL<=4000 AND SAL*12>15000;
+ WHERE SAL>1000 AND SAL<4000 AND SAL*12>15000;
 ```
 
 [ASSIGNMENT 20](https://drive.google.com/file/d/1XozTZpHqW_kjdXy6MRvrW9xJBbxmQBFo/view?usp=share_link)
