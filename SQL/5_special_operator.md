@@ -50,3 +50,53 @@
 ## NOT IN OPERATOR :
 
 - 'NOT IN' operator works similar to 'IN OPERATOR' which can compare multiple values at RHS to the single value of LHS.
+- Instead of selecting, it will reject the values which are matching the condition.
+
+### SYNTAX :
+
+```
+ col-name/Expression NOT IN (v1,v2,v3.........Vn);
+```
+
+### EXAMPLE :
+
+1. WAQTD DETAILS OF ALL THE EMPLOYEES EXPECT THE EMPLOYEE FOR WORKING AS MANAGER (OR) PRESIDENT.
+
+```
+ SELECT * FROM EMP
+ WHERE JOB NOT IN ('MANAGER','PRESIDENT');
+```
+
+## BETWEEN OPERATOR :
+
+- Between operator is used whenever we have the range of values.
+- Between operator returns true if the values is within the range.
+
+### SYNTAX :
+
+```
+ col-name/expression BETWEEN LOWER RANGE AND HIGHER RANGE;
+```
+
+### EXAMPLE :
+
+1. WAQTD DETAILS OF THE EMPLOYEE  WHOSE SALARY IS IN THE RANGE OF 1000 AND 4000.
+
+```
+ SELECT * FROM EMP
+ WHERE SAL BETWEEN 1000 AND 4000;
+```
+
+2. WAQTD EMPLOYEE NAME,SAL AND DESIGNATION FOR ALL THE EMPLOYEES WHOSE SALARY IS BETWEEN 1000 AND 3000.
+
+```
+ SELECT ENAME,SAL,JOB FROM EMP
+ WHERE SAL BETWEEN 1001 AND 2999;
+```
+
+3. WAQTD DETAILS OF THE EMPLOYEE WHO HIRED BETWEEN 81 AND 87.
+
+```
+ SELECT * FROM EMP
+ WHERE HIREDATE BETWEEN '01-JAN-81' AND '01-JAN-87';
+```
