@@ -428,6 +428,6 @@
 
 ```
  SELECT * FROM EMP
- WHERE JOB NOT IN ('MANAGER','CLERK') AND DEPTNO IN (10,20) AND SAL NOT BETWEEN 1000 AND 3000;
+ WHERE JOB NOT IN ('MANAGER','CLERK') AND DEPTNO IN (10,20) AND SAL BETWEEN 1000 AND 3000;
 ```
-[ASSIGNMENT 20](https://drive.google.com/file/d/136M9_-E0aUPlXw1UVuH2aChFvYCh-TYZ/view?usp=share_link)
+[ASSIGNMENT 20](https://drive.google.com/file/d/1E79h9arqa7loqxdMFksZ6HXEc_fKAwwN/view?usp=share_link)
