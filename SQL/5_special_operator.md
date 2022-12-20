@@ -410,10 +410,10 @@
 
 ```
  SELECT * FROM EMP
- WHERE HIREDATE LIKE '%81';
+ WHERE HIREDATE > '31-DEC-81';
 ```
 
-[ASSIGNMENT 18](https://drive.google.com/file/d/1f9VsqK_OBmBund5ADuTskLu8fk7cUizv/view?usp=share_link)
+[ASSIGNMENT 18](https://drive.google.com/file/d/1taUyoyFXo7pIj07h33Y5KEnAaceQn4o6/view?usp=share_link)
 
 19. DISPLAY ALL THE EMPLOYEE WHO ARE JOINED IN FED
 
@@ -428,6 +428,6 @@
 
 ```
  SELECT * FROM EMP
- WHERE JOB NOT IN ('MANAGER','CLERK') AND DEPTNO NOT IN (10,20) AND SAL NOT BETWEEN 1000 AND 3000;
+ WHERE JOB NOT IN ('MANAGER','CLERK') AND DEPTNO IN (10,20) AND SAL NOT BETWEEN 1000 AND 3000;
 ```
-[ASSIGNMENT 20](https://drive.google.com/file/d/1GhzA7CO1Bg4uG4cp3jKN9dfNt7d4Xza5/view?usp=share_link)
+[ASSIGNMENT 20](https://drive.google.com/file/d/136M9_-E0aUPlXw1UVuH2aChFvYCh-TYZ/view?usp=share_link)
