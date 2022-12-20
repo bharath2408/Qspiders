@@ -320,10 +320,10 @@
 
 ```
  SELECT * FROM EMP 
- WHERE JOB IN 'MANAGER' AND DEPTNO IN 10;
+ WHERE MGR IS NOT NULL AND DEPTNO IN 10;
 ```
 
-[ASSIGNMENT 8](https://drive.google.com/file/d/1kbrIUL7uU_VL2AgtdbqzpPcxEQG6-fJ0/view?usp=share_link)
+[ASSIGNMENT 8](https://drive.google.com/file/d/1JbXsRWqXD94oUB-72pQ5dVkr0-wq0byu/view?usp=share_link)
 
 9. LIST ALL THE EMPLOYEES WHOSE COMMISSION IS NULL AND WORIKNG AS CLERK.
 
